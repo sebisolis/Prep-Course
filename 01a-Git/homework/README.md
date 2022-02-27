@@ -23,23 +23,23 @@ Dentro de nuestra terminal podemos: revisar nuestra estructura de archivos, aña
 
 "Change Directory": Nos permite movernos a una nueva carpeta o "directorio"
 ```bash
-  $ cd [carpeta]
+  $ cd D:\Documents
 ```
 
 "Make Directory": Crea una nueva carpeta en el directorio donde nos encontramos actualmente.
 ```bash
-  $ mkdir [nombre de la carpeta]
+  $ mkdir Carpeta_Prueba
 ```
 
 "Touch" creará un nuevo archivo.
 ```bash
-  $ touch [nombre del archivo]
+  $ touch archivo.txt
 ```
 
 "Remove": Elimina permanentemente un archivo. ¡CUIDADO! Esto traspasa cualquier "papelera de reciclaje" que exista en el sistema y elimina los archivos PERMANENTEMENTE. Como nota, esto no eliminará carpetas, necesitamos un comando especial para eso que aprenderemos más adelante.
 
 ```bash
-  $ rm [nombre del archivo]
+  $ rm archivo.txt
 ```
 
 ## Ejercicio
@@ -57,7 +57,7 @@ Para ello primero iremos a la carpeta de nivel superior, escribe en la consola:
 y presiona Enter. Una vez estés en el nivel superior, escribe:
 
 ```bash
-  mkdir CarpetaHenry
+  mkdir Henry
 ```
 
 y presiona Enter. ¡Felicitaciones, has creado un directorio!
@@ -88,9 +88,9 @@ Una vez tengas la dirección copiada, abre una terminal nueva y escribe lo sigui
 ```bash
   $ cd ~
 
-  $ cd CarpetaHenry
+  $ cd Henry
 
-  $ git clone [dirección copiada]
+  $ git clone https://github.com/sebisolis/henry.git
 ```
 
 Esto descargará el repositorio y tendrás disponible una copia local guardada en tu máquina.
@@ -104,7 +104,7 @@ En este ejercicio, añadiremos un archivo a nuestro proyecto y crearemos un comm
 A continuación, escribe lo siguiente en tu terminal:
 
 ```bash
-  $ cd repositorio-henry
+  $ cd henry
   
   $ touch archivo-ejemplo.js
 ```
